@@ -1,0 +1,5 @@
+Day 4 - Linux permissions
+rw-r--r-- = owner read/write, group read, others read
+600 = owner only = AC-6 least privilage
+640 = owner + group, others blocked = AC-3
+chmod did not work in Git Bash - Windows ignores linux permissions. Always verify.
